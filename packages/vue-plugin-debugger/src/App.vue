@@ -22,11 +22,11 @@
     background-color: purple;
   }
   </style> -->
-  <style lang="scss" scoped>
+  <style scoped>
   #app {
     background-color: pink;
-    h1 {
-      color: yellow;  
-    }
+  }
+  h1 {
+    color: yellow;  
   }
   </style>

@@ -5,10 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "vite build"
   },
   "devDependencies": {
-    "vite": "workspace/*"
+    "vite": "workspace:*",
+    "@vitejs/plugin-vue": "workspace:*",
+    "vue": "workspace:*"
   },
   "keywords": [],
   "author": "",
