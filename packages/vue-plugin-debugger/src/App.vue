@@ -1,12 +1,16 @@
 <template>
     <div id="app">
-      <h1>Hello Vue 3 with Vite!</h1>
+      <h1>Hello Vue 3 with Vite!{{ cicd }}</h1>
+      <Dialog></Dialog>
     </div>
   </template>
   
   <script name="App" setup>
   // 我是注释
-  import { onMounted } from 'vue';
+  import { onMounted, ref } from 'vue';
+  const cicd = ref('Continuous Integration')
+  // 组件命名：全都大驼峰或中划线
+  import Dialog from './components/dialog.vue';
   onMounted(() => {
     const name =        'John';
     const message = `Hello, ${name} !`;
