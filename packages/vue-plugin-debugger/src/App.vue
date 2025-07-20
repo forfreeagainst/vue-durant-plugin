@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-      <h1>Hello Vue 3 with Webpack!</h1>
+      <h1>Hello Vue 3 with Vite!</h1>
     </div>
   </template>
   
