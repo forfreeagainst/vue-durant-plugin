@@ -1,0 +1,1 @@
+var DurantDraggablePlus=function(e,r){"use strict";function u(...t){var n;(n=r.getCurrentInstance())==null||n.proxy,t[0];const[,a,c]=t;return{ccc:22}}return e.useDraggable=u,Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),e}({},Vue);

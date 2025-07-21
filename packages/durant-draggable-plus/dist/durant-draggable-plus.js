@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const r=require("vue");function n(...e){var t;(t=r.getCurrentInstance())==null||t.proxy,e[0];const[,o,u]=e;return{ccc:22}}exports.useDraggable=n;
